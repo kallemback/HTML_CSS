@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="../imagens/img-pequena.fw.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../imagens/img-media.fw.png" type="image/png">
+        <img src="../imagens/img-grande.fw.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>
+        Vamos aprender a reproduzir audio em html5.
+        
+    </p>
+    <p>
+        <audio src="../midia/Raag Bageshree - Sandeep Das, Adhiraj Chaudhuri, Bivakar Chaudhuri.mp3" controls></audio>
+    </p>
+
+    <h1>Inserindo Videos</h1>
+    <video width= "560" poster="../midia/1680610412296.jpeg" controls>
+    <source src="../midia/live BRAZILIAN HAPKIDO_.mp4" type="video/mp4">
+    </video>
+    <p>
+
+    </p>
+
+    <h1>Inserindo videos do Youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DxuWXcHVdC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html> 
