@@ -171,6 +171,7 @@ aside{
     border-radius: 10px;
     box-shadow: 3px 4px 0 rgb(209, 152, 152);
     text-align: justify;
+    text-decoration: var(--cor3);
 
 }
 aside h3{
